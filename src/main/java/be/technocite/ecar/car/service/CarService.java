@@ -45,8 +45,9 @@ public class CarService{
                 car.getVin(),
                 car.getYear(),
                 car.getUserId()
+
         );
-    }
+    }short
 
     public List<CarDtoBuyer> search(String brand, double maxPrice) {
         return carDao.findAll().stream()
